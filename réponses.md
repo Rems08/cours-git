@@ -51,24 +51,28 @@ git branch BranchFile<br>
 git checkout BranchFile<br>
 git status apply<br>
 
-- [ ] git status<br>
+- [x] git status<br>
 git stash<br>
 git branch BranchFile<br>
 git checkout BranchFile<br>
 git stash apply<br>
+
 8) git commit --amend -m "Test"
-Cette commande permet de :
-revenir au commit précédent
-modifier le message du commit précédent
-créer un nouveau commit avec le message "Test"
+Cette commande permet de : 
+
+(combiner les changements stagés avec l'ancien commit)
+- [x] revenir au commit précédent
+- [x] modifier le message du commit précédent
+- [ ] créer un nouveau commit avec le message "Test"
+
 9) Quelle est la différence entre git revert et git reset?
-git revert ne réinitialise qu’un commit alors que git reset réinitialise
+- [ ] git revert ne réinitialise qu’un commit alors que git reset réinitialise
 tout
-git revert crée un nouveau commit alors que git reset, non
-git reset crée un nouveau commit alors que git revert, non
+- [x] git revert crée un nouveau commit alors que git reset, non
+- [ ] git reset crée un nouveau commit alors que git revert, non
 10) Je souhaite savoir qui a touché à une ligne en particulier dans le
 fichier test.html. Quelle commande vais-je devoir exécuter ?
-git log
-git reflog
-git blame
-git cherry pick
+- [x] git log
+- [ ] git reflog
+- [ ] git blame
+- [ ] git cherry pick
